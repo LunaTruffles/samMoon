@@ -1,2 +1,0 @@
-# samMoon
-My portfolio
