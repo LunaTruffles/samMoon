@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sam's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/ec7c8112b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./stylesheet/index.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+        <nav class="tabs is-boxed is-is-one-fifth is-centered">
+            <div class="container">
+              <ul>
+                <li class="tab">            
+                    <h2 class="title">
+                    Sam Moon
+                    </h2>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+            <!-- About Tab Page -->
+            <div class="card">
+    <div class="container section">
+        <div id="About" class="content-tab">
+          <div class="container">
+            <h2 class="title">
+              Hello, I'm Sang Deuk (Sam) Moon. I am a <strong>Software Engineer</strong> with development experience focused on building clean interfaces and help solve problems.
+            </h2>
+            <br />
+            <div class="buttons is-grouped is-centered">
+              <div class="control">
+                <button class="button is-link" onclick="window.open('https://www.linkedin.com/in/samsdmoon/', '_blank');">
+                  <span class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                  </span>
+                  <span>LinkedIn</span>
+                </button>
+              </div>
+              <div class="control">
+                <button class="button is-link is-light" onclick="window.open('https://github.com/LunaTruffles', '_blank');">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>GitHub</span>
+                </button>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Skills -->
+          <div class="container">
+            <div class="columns">
+              <div class="column">
+                <div class="box">
+                  <!-- Developer Skills -->
+                  <h1 class="title align-center" style="margin-bottom: 1.5rem;">
+                    Developer Skills
+                  </h1>
+                  <h2 class="subtitle align-center">
+                    Languages and Frameworks
+                  </h2>
+                    <div class="columns is-mobile align-center">
+                      <div class="column">
+                        <div class="inner">
+                          <div style="max-height: 45px;">
+                            <img id="jspng" src="/assets/logos/javascript.png" alt="Bulma Logo" style="padding-bottom: 1px;">
+                          </div>
+                          <h3>JavaScript</h3>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="inner">
+                          <div style="max-height: 45px;">
+                            <img id="htmlpng" src="/assets/logos/html.png" alt="Bulma Logo" style="padding-bottom: 1px;">
+                          </div>
+                          <h3>HTML</h3>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="inner">
+                          <div style="max-height: 45px;">
+                            <img id="csspng" src="/assets/logos/css.png" alt="Bulma Logo" style="padding-bottom: 1px;">
+                          </div>
+                          <h3>CSS</h3>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="inner">
+                          <div style="max-height: 45px;">
+                            <img id="postgrespng" src="/assets/logos/postgres.png" alt="Bulma Logo" style="padding-bottom: 1px;">
+                          </div>
+                          <h3>Postgres</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="columns is-mobile align-center">
+                      <div class="column">
+                        <div class="inner">
+                          <div style="max-height: 45px;">
+                            <img id="react" src="/assets/logos/react.png" alt="Bulma Logo" style="padding-bottom: 1px;">
+                          </div>
+                          <h3>React</h3>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="inner">
+                          <span style="font-size: 3rem;" class="fab style2 major fa-git-alt"></span>
+                          <h3>Git</h3>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="inner">
+                          <span style="font-size: 3rem;" class="fab style2 major fa-github"></span>
+                          <h3>GitHub</h3>
+                        </div>
+                      </div>
+                      <div class="column">
+                        <div class="inner">
+                          <div style="max-height: 45px;">
+                            <img id="nodejs" src="/assets/logos/nodejs.png" alt="Bulma Logo" style="padding-bottom: 1px;">
+                          </div>
+                          <h3>Node</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="columns is-mobile align-center">
+                    </div>
+                    <p class="is-size-7 has-text-centered">See what I am currently learning on <a href="https://github.com/LunaTruffles" target="_blank">GitHub</a></p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="box" style="padding-bottom: calc(30px + 7px);">
+                    <!-- Designer Skills -->
+                    <h1 class="title align-center" style="margin-bottom: 1.5rem;">
+                      Design Skills
+                    </h1>
+                    <h2 class="subtitle align-center">
+                      Tools and Frameworks
+                    </h2>
+                      <div class="columns is-mobile align-center">
+                        <div class="column">
+                          <div class="inner">
+                            <div style="max-height: 49px;">
+                              <img id="bootstrappng" src="/assets/logos/Bootstrap.png" alt="Adobe Logo">
+                            </div>
+                            <h3>Bootstrap</h3>
+                          </div>
+                        </div>
+                        <div class="column">
+                          <div class="inner">
+                            <div style="max-height: 49px;">
+                              <img id="bulmapng" src="/assets/logos/Bulma.png" alt="Canva Logo">
+                            </div>
+                            <h3>Bulma</h3>
+                          </div>
+                        </div>
+                        <div class="column">
+                          <div class="inner">
+                            <div style="max-height: 49px;">
+                              <img id="bulmaImg" src="/assets/logos/mui.png" alt="Bulma Logo">
+                            </div>
+                            <h3>Material UI</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="box" style="padding-bottom: calc(30px + 7px);">
+                      <!-- Project Management Skills -->
+                      <h1 class="title align-center" style="margin-bottom: 1.5rem;">
+                        Project + Product Management
+                      </h1>
+                      <h2 class="subtitle align-center">
+                        Tools Used
+                      </h2>
+                      <div class="columns is-mobile align-center">
+                        <div class="column">
+                          <div class="inner">
+                            <span style="font-size: 3rem;" class="fab style2 major fab fa-trello"></span>
+                            <h3>Trello</h3>
+                          </div>
+                        </div>
+                        <div class="column">
+                          <div class="inner">
+                            <span style="font-size: 3rem;" class="fab style2 major fa-github"></span>
+                            <h3>Project</h3>
+                          </div>
+                        </div>
+                        <div class="column">
+                          <div class="inner">
+                            <div style="max-height: 49px;">
+                              <img id="jirapng" src="/assets/logos/jira.png" alt="Asana Logo">
+                            </div>
+                            <h3>Jira</h3>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <br>
+          <!-- Experience -->
+          <div class="container">
+            <div class="columns">
+              <div class="column">
+                <video playsinline autoplay muted loop class="is-hidden-mobile" id="golfVideo">
+                  <source id="golfVid" src="/assets/videos/Golf.MOV" type="video/mp4">
+                </video>
+                <figure class="is-hidden-desktop is-hidden-tablet">
+                  <img id="samImg" src="/assets/images/samsFace.jpg" alt="Sam">
+                </figure>
+              </div>
+              <div class="column">
+                <h2 class="title">
+                 <strong>About</strong> Sam.
+                <h4 class="subtitle">
+                    <strong>Past</strong>
+                    <br>
+                    <span class="icon-text">
+                        <span class="icon">
+                            <ion-icon name="musical-notes-outline"></ion-icon>
+                        </span>
+                        <span>Opera</span>
+                        <span class="icon">
+                            <ion-icon name="business-outline"></ion-icon>
+                        </span>
+                        <span>Real Estate</span>
+                        <span class="icon">
+                            <ion-icon name="layers-outline"></ion-icon>
+                        </span>
+                        <span>InsureTech</span>
+                      </span>
+                  <br>
+                  
+                </h4>
+                <h2 class="subtitle">
+                  <strong>Today</strong>
+                  <br>
+                  Software Engineer
+                </h2>
+                <br>
+                <div class="buttons rec is-grouped is-centered">
+                  <div class="control">
+                    <button class="button is-link" onclick="window.location.href='/assets/resume/Sam_Moon_Resume.pdf';" target="_blank" rel="noopener noreferrer">
+                      <span>View Resume</span>
+                    </button>
+                  </div>
+                  <div class="control">
+                    <div class="button is-link is-light">
+                      <a href="/assets/resume/Sam_Moon_Resume.pdf" download="Harmony_Trevena_Resume" target="_blank">Download</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+  <!-- Projects -->
+        
+    <!-- EV.db -->
+    <div class="card" id="projectCard">
+    <div class="container">
+      <h2 class="title">
+        Project 1 • <strong>EV.db</strong>
+      </h2>
+      <br />
+      <div class="buttons is-centered">
+        <div class="control">
+          <button class="button is-link is-light" onclick="window.open('https://github.com/huttonbrew/Backend-Cars', '_blank');">
+            <span>View Code</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  
+    <!-- Project Details -->
+    <div id="rec-feed" class="section-rec has-white-pink-gradient">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <article class="media">
+                <div class="media-left is-hidden-mobile">
+                  <figure class="image is-64x64 ">
+                    <img src="/assets/images/bram-van-oost-oOCI35aIA3M-unsplash.jpg" alt="tesla img1">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Problem</strong>
+                    </p>
+                    <p>
+                      Electric vehicles have lacking real user efficiency data. The data that a electric vehicle user reports vary widely and are does not always match the reports efficiency from the EPA.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <article class="media">
+                <div class="media-left is-hidden-mobile">
+                  <figure class="image is-64x64 ">
+                    <img src="https://helios-i.mashable.com/imagery/articles/0600S5ViXVl8wQjh9hYL1TJ/hero-image.fill.size_1200x1200.v1643242368.jpg" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Our App</strong>
+                    </p>
+                    <p>
+                      Our app is for Tesla users. A use can create an account with their efficiency (which can be updated). Once logged in, a user can see their input efficiency, the  EPA stated efficiency & our user database average efficiency for their Tesla model. 
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="rec-feed" class="section-rec has-white-pink-gradient">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <article class="media">
+                <div class="media-left is-hidden-mobile">
+                  <figure class="image is-64x64 ">
+                    <img src="/assets/images/codingIcon.png" alt="coding icon">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                        <strong>Built with</strong>
+                        <br>
+                         <small>HTML + Bootstrap + CSS + Node.js + bcrypt + Express ES6+ Postgres</small>
+                      </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <article class="media">
+                <div class="media-left is-hidden-mobile">
+                  <figure class="image is-64x64 ">
+                    <img src="/assets/images/groupIcon.png" alt="groupIcon">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Built by</strong>
+                      <br>
+                      <small><a href="https://www.linkedin.com/in/jai-gokhale-81827747/" target="_blank">Victor Brew</a>, <a href="https://www.linkedin.com/in/kevin-jeffers/" target="_blank">Daniel Donato </a>and<a href="https://www.linkedin.com/in/samsdmoon/" target="_blank"> Sam Moon!</a></p></small>
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features, Tech and Team -->
+    <div class="has-pink-bg">
+      <br>
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h2 class="title">
+              Project <strong>Features.</strong>
+            </h2>
+            <br>
+            <h2 class="subtitle">
+              <strong>User Login and Form Validation</strong>
+              <br>
+              The app allows users to create an account or sign in as a guest.
+            </h2>
+            <h2 class="subtitle">
+              <strong>Compare efficiency with all user input average & EPA stated efficiency</strong>
+              <br>
+              Users have access to numbers for the efficiency with all user input average & EPA stated efficiency for their specific Tesla model.
+            </h2>
+          </div>
+          <div class="column" style="padding-bottom: 0px;">
+            <img id="featureGraphic" class="contact-img" src="./assets/images/project.png" alt="EV.db"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <br>
+    <br>
+
+    <!-- Project RE_Invest -->
+    <div class="card" id="projectCard1">
+      <div class="container">
+        <h2 class="title">
+          Project 2 • <strong>RE_Invest</strong>
+        </h2>
+        <br />
+        <div class="buttons is-centered">
+          <div class="control">
+            <button class="button is-link is-light" onclick="window.open('https://github.com/LunaTruffles/RE_Invest', '_blank');">
+              <span>View Code</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Project Details -->
+      <div id="rec-feed" class="section-rec has-white-pink-gradient">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left is-hidden-mobile">
+                    <figure class="image is-64x64 ">
+                      <img src="/assets/images/bram-van-oost-oOCI35aIA3M-unsplash.jpg" alt="tesla img1">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Problem</strong>
+                      </p>
+                      <p>
+                        Real estate is a common investment vehicle but how investors make money on real esate not a common knowlege. 
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left is-hidden-mobile">
+                    <figure class="image is-64x64 ">
+                      <img src="https://helios-i.mashable.com/imagery/articles/0600S5ViXVl8wQjh9hYL1TJ/hero-image.fill.size_1200x1200.v1643242368.jpg" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>My App</strong>
+                      </p>
+                      <p>
+                        RE_Invest allow investors to share their plans for their investment. They can share their plans & their know-how for the future investors.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="rec-feed" class="section-rec has-white-pink-gradient">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left is-hidden-mobile">
+                    <figure class="image is-64x64 ">
+                      <img src="/assets/images/codingIcon.png" alt="coding icon">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                          <strong>Built with</strong>
+                          <br>
+                           <small>React + Redux + CSS + Node.js + Material UI + Stripe Payment</small>
+                        </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left is-hidden-mobile">
+                    <figure class="image is-64x64 ">
+                      <img src="/assets/images/groupIcon.png" alt="groupIcon">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Built by</strong>
+                        <br>
+                        <small><a href="https://www.linkedin.com/in/samsdmoon/" target="_blank"> Sam Moon!</a></p></small>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Features, Tech and Team -->
+      <div class="has-pink-bg">
+        <br>
+        <div class="container">
+          <div class="columns">
+            <div class="column" style="padding-bottom: 0px;">
+              <img id="featureGraphic" class="contact-img" src="./assets/images/project2.png" alt="EV.db"/>
+            </div>
+            <div class="column">
+              <h2 class="title">
+                Project <strong>Features.</strong>
+              </h2>
+              <br>
+              <br>
+              <h2 class="subtitle">
+                <strong>No database, just Redux</strong>
+                <br>
+                <br>
+                The contents are being stored using state and redux. 
+              </h2>
+              <br>
+              <h2 class="subtitle">
+                <strong>Edit & Delete</strong>
+                <br>
+                <br>
+                Users can edit their plan for the building & delete the submitted building.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card" id="projectCard">
+      <div class="container">
+        <h2 class="title">
+          Project 3 • <strong>ProfitRain</strong>
+        </h2>
+        <br />
+        <div class="buttons is-centered">
+          <div class="control">
+            <button class="button is-link is-light" onclick="window.open('https://github.com/ZaidSyed22/Capstone2022-App', '_blank');">
+              <span>View Code</span>
+            </button>
+          </div>
+        </div>
+      </div>
+  
+    
+      <!-- Project Details -->
+      <div id="rec-feed" class="section-rec has-white-pink-gradient">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left is-hidden-mobile">
+                    <figure class="image is-64x64 ">
+                      <img src="/assets/images/bram-van-oost-oOCI35aIA3M-unsplash.jpg" alt="tesla img1">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Problem</strong>
+                      </p>
+                      <p>
+                        There are no software for calculating the investment opportunity for real estate. Investors have to do their underwriting as an investment opportunity & the banks will do their own underwriting to determine the value of the asset.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left is-hidden-mobile">
+                    <figure class="image is-64x64 ">
+                      <img src="https://helios-i.mashable.com/imagery/articles/0600S5ViXVl8wQjh9hYL1TJ/hero-image.fill.size_1200x1200.v1643242368.jpg" alt="Image">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Our App</strong>
+                      </p>
+                      <p>
+                        Our app let users input some of their property data & calculates the cash flow, net present value & the excpected sales price of the property. The assumptions are made for you based on the property type (to be expanded and use machine learning in the future).
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="rec-feed" class="section-rec has-white-pink-gradient">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left is-hidden-mobile">
+                    <figure class="image is-64x64 ">
+                      <img src="/assets/images/codingIcon.png" alt="coding icon">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                          <strong>Built with</strong>
+                          <br>
+                           <small>React + Context API + CSS + Node.js + bcrypt + Boostrap + Postgres</small>
+                        </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box">
+                <article class="media">
+                  <div class="media-left is-hidden-mobile">
+                    <figure class="image is-64x64 ">
+                      <img src="/assets/images/groupIcon.png" alt="groupIcon">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <div class="content">
+                      <p>
+                        <strong>Built by</strong>
+                        <br>
+                        <small><a href="https://www.linkedin.com/in/jai-gokhale-81827747/" target="_blank">Victor Brew</a>, <a href="https://www.linkedin.com/in/kevin-jeffers/" target="_blank">Daniel Donato </a>and<a href="https://www.linkedin.com/in/samsdmoon/" target="_blank"> Sam Moon!</a></p></small>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Features, Tech and Team -->
+      <div class="has-pink-bg">
+        <br>
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <h2 class="title">
+                Project <strong>Features.</strong>
+              </h2>
+              <br>
+              <h2 class="subtitle">
+                <strong>Investment calculator</strong>
+                <br>
+                Updates the calculation everything you the form is submitted & ability to save the calculation.
+              </h2>
+              <h2 class="subtitle">
+                <strong>Login & Save your deal</strong>
+                <br>
+                The app allows users to create an account or sign in as a guest. It allows use to save their calculation and all saved deals are displayed on one page.
+              </h2>
+            </div>
+            <div class="column" style="padding-bottom: 0px;">
+              <video playsinline autoplay muted loop class="is-hidden-mobile" id="seanVideo">
+                <source id="sourceseanVideo" src="/assets/videos/capstoneDemo.mov" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="container has-text-centered">
+      <div class="dropdown is-hoverable">
+        <div class="dropdown-trigger">
+          <button class="button is-rounded" aria-haspopup="true" aria-controls="dropdown-menu4">
+            <span>Contact Sam</span>
+            <span class="icon is-small">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+          <div class="dropdown-content">
+            <div class="dropdown-item">
+              <p>lunathetruffle@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <br>
+        <!-- Footer -->
+        <section id="footer" class="section-footer has-pink-bg">
+            <div class="container has-text-centered">
+                <a href="https://www.linkedin.com/in/samsdmoon/" target="_blank" class="is-size-4 social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/LunaTruffles" target="_blank" class="is-size-4 social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <p class="has-text-blue is-size-7">
+                    Designed and Built with <a href="https://bulma.io" target="_blank">Bulma</a>, by <a href="https://www.linkedin.com/in/samsdmoon/">Sam Moon!</a>
+                </p>
+            </div>
+        </section>
+
+    </div>
+  </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+ 
+  </body>
+
+  <script src="scripts/forTabs.js"></script>
+</html>
